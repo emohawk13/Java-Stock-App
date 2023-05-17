@@ -27,7 +27,8 @@ public class Stock {
     
     @Override
     public String toString(){
-        return companyName;
+        //Company: qty shares
+        return companyName + ": " + numberOfShares + " shares";
     }
     
     public Stock(String companyName, double numberOfShares, double purchasePrice, double currentPrice){
